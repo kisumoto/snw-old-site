@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.0.0.58475 -->
+    <meta charset="utf-8">
+    <title>WAVE Art Gallery</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+
+
+
+<script>jQuery(function($) {
+    'use strict';
+    if ($.fn.slider) {
+        $(".art-slidecontainerb60d42e0bf824237b0e99898a717193d").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".art-slider-inner", slideContainer);
+            var helper = null;
+
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.slider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".art-slidenavigatorb60d42e0bf824237b0e99898a717193d"),
+                helper: helper
+                            });
+        });
+    }
+});
+</script><style>
+
+.art-slidecontainerb60d42e0bf824237b0e99898a717193d {
+    position: relative;
+        width: 739px;
+    height: 469px;
+        }
+
+.art-slidecontainerb60d42e0bf824237b0e99898a717193d .art-slide-item
+{
+
+}
+
+
+
+.art-slidecontainerb60d42e0bf824237b0e99898a717193d .art-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.art-slidecontainerb60d42e0bf824237b0e99898a717193d .active, .art-slidecontainerb60d42e0bf824237b0e99898a717193d .next, .art-slidecontainerb60d42e0bf824237b0e99898a717193d .prev {
+    display: block;
+}
+
+.art-slidecontainerb60d42e0bf824237b0e99898a717193d .active {
+    opacity: 1;
+}
+
+.art-slidecontainerb60d42e0bf824237b0e99898a717193d .next, .art-slidecontainerb60d42e0bf824237b0e99898a717193d .prev {
+    width: 100%;
+}
+
+.art-slidecontainerb60d42e0bf824237b0e99898a717193d .next.forward, .art-slidecontainerb60d42e0bf824237b0e99898a717193d .prev.back {
+    opacity: 1;
+}
+
+.art-slidecontainerb60d42e0bf824237b0e99898a717193d .active.forward {
+    opacity: 0;
+}
+
+.art-slidecontainerb60d42e0bf824237b0e99898a717193d .active.back {
+    opacity: 0;
+}
+
+
+.art-slideb60d42e0bf824237b0e99898a717193d0 {
+    background-image:  url('images/slideb60d42e0bf824237b0e99898a717193d0.jpg');
+    background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideb60d42e0bf824237b0e99898a717193d1 {
+    background-image:  url('images/slideb60d42e0bf824237b0e99898a717193d1.jpg');
+    background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideb60d42e0bf824237b0e99898a717193d2 {
+    background-image:  url('images/slideb60d42e0bf824237b0e99898a717193d2.jpg');
+    background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideb60d42e0bf824237b0e99898a717193d3 {
+    background-image:  url('images/slideb60d42e0bf824237b0e99898a717193d3.jpg');
+    background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideb60d42e0bf824237b0e99898a717193d4 {
+    background-image:  url('images/slideb60d42e0bf824237b0e99898a717193d4.jpg');
+    background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideb60d42e0bf824237b0e99898a717193d5 {
+    background-image:  url('images/slideb60d42e0bf824237b0e99898a717193d5.jpg');
+    background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideb60d42e0bf824237b0e99898a717193d6 {
+    background-image:  url('images/slideb60d42e0bf824237b0e99898a717193d6.jpg');
+    background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideb60d42e0bf824237b0e99898a717193d7 {
+    background-image:  url('images/slideb60d42e0bf824237b0e99898a717193d7.jpg');
+    background-position:  0 0;
+    background-repeat: no-repeat;
+}
+
+
+.art-slidenavigatorb60d42e0bf824237b0e99898a717193d {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 445px;
+  left: 77.81%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.art-slidenavigatorb60d42e0bf824237b0e99898a717193d
+{
+background: #B9C2CB;background: linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;background: -webkit-linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;background: -moz-linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;background: -o-linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;background: -ms-linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;background: linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;-svg-background: linear-gradient(top, rgba(232, 235, 238, 0.6) 0, rgba(138, 153, 168, 0.6) 100%) no-repeat;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+
+
+padding:7px;
+
+
+
+
+
+}
+.art-slidenavigatorb60d42e0bf824237b0e99898a717193d > a
+{
+background: #728597;background: #728597;background: #728597;background: #728597;background: #728597;background: #728597;background: #728597;-svg-background: #728597;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorb60d42e0bf824237b0e99898a717193d > a.active
+{
+background: #FA681E;background: #FA681E;background: #FA681E;background: #FA681E;background: #FA681E;background: #FA681E;background: #FA681E;-svg-background: #FA681E;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorb60d42e0bf824237b0e99898a717193d > a:hover
+{
+background: #455B73;background: #455B73;background: #455B73;background: #455B73;background: #455B73;background: #455B73;background: #455B73;-svg-background: #455B73;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+
+</style></head>
+<body>
+<div id="art-main">
+    <div class="art-sheet clearfix">
+<nav class="art-nav clearfix">
+    <ul class="art-hmenu"><li><a href="wave-home-page.html">WAVE Home Page</a><ul><li><a href="wave-home-page/new-page.html">Краткая история</a></li><li><a href="wave-home-page/new-page-2.html">Что мы предлагаем</a></li><li><a href="wave-home-page/new-page-3.html">Чего мы ждем от вас</a></li><li><a href="wave-home-page/правила-альянса.html">Правила альянса</a></li></ul></li><li><a href="killboard.html">KillBoard</a></li><li><a href="guides.html">Guides</a><ul><li><a href="guides/slack.html">Slack</a></li><li><a href="guides/fleet-up-com.html">Fleet-Up.com</a></li><li><a href="guides/механика-фв.html">Механика ФВ</a></li><li><a href="guides/полеты-во-флоте.html">Полеты во флоте</a></li></ul></li><li><a href="art-gallery.html" class="active">Art Gallery</a></li><li><a href="recruitment-page.html">Recruitment Page</a></li><li><a href="contacts.html">Contacts</a></li></ul> 
+    </nav>
+<header class="art-header clearfix">
+
+
+    <div class="art-shapes">
+<h1 class="art-headline" data-left="3.2%">
+    <a href="#">Smile 'n' Wave - EVE Online community, Minmatar Faction Wars</a>
+</h1>
+
+
+            </div>
+
+                
+                    
+</header>
+<div class="art-layout-wrapper clearfix">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-sidebar1 clearfix"><div class="art-vmenublock clearfix">
+        <div class="art-vmenublockheader">
+            <h3 class="t">Карта сайта</h3>
+        </div>
+        <div class="art-vmenublockcontent">
+<ul class="art-vmenu"><li><a href="wave-home-page.html">WAVE Home Page</a><ul><li><a href="wave-home-page/new-page.html">Краткая история</a></li><li><a href="wave-home-page/new-page-2.html">Что мы предлагаем</a></li><li><a href="wave-home-page/new-page-3.html">Чего мы ждем от вас</a></li><li><a href="wave-home-page/правила-альянса.html">Правила альянса</a></li></ul></li><li><a href="killboard.html">KillBoard</a></li><li><a href="guides.html">Guides</a><ul><li><a href="guides/slack.html">Slack</a></li><li><a href="guides/fleet-up-com.html">Fleet-Up.com</a></li><li><a href="guides/механика-фв.html">Механика ФВ</a></li><li><a href="guides/полеты-во-флоте.html">Полеты во флоте</a></li></ul></li><li><a href="art-gallery.html" class="active">Art Gallery</a></li><li><a href="recruitment-page.html">Recruitment Page</a></li><li><a href="contacts.html">Contacts</a></li></ul>
+                
+        </div>
+</div></div>
+                        <div class="art-layout-cell art-content clearfix"><article class="art-post art-article">
+                                <h2 class="art-postheader">WAVE Art Gallery</h2>
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><p> </p>
+<div id="b60d42e0bf824237b0e99898a717193d" style="position: relative; display: inline-block; z-index: 0; margin: 7px;  border-width: 0px;  " class="art-collage">
+<div class="art-slider art-slidecontainerb60d42e0bf824237b0e99898a717193d">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slideb60d42e0bf824237b0e99898a717193d0">
+
+</div>
+<div class="art-slide-item art-slideb60d42e0bf824237b0e99898a717193d1">
+
+</div>
+<div class="art-slide-item art-slideb60d42e0bf824237b0e99898a717193d2">
+
+</div>
+<div class="art-slide-item art-slideb60d42e0bf824237b0e99898a717193d3">
+
+</div>
+<div class="art-slide-item art-slideb60d42e0bf824237b0e99898a717193d4">
+
+</div>
+<div class="art-slide-item art-slideb60d42e0bf824237b0e99898a717193d5">
+
+</div>
+<div class="art-slide-item art-slideb60d42e0bf824237b0e99898a717193d6">
+
+</div>
+<div class="art-slide-item art-slideb60d42e0bf824237b0e99898a717193d7">
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigatorb60d42e0bf824237b0e99898a717193d">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    </div>
+
+<p><br></p></div>
+</article></div>
+                    </div>
+                </div>
+            </div><footer class="art-footer clearfix">
+<p><span style="font-size: 12px;">Design and technical support: Oktura Ostus, True Pixel, E-Bache Myasko. E-mail:</span><span style="font-size: 11px;">&nbsp;<a href="mailto:%20admin@smilenwave.space" target="_blank">admin@smilenwave.space</a></span><br></p>
+</footer>
+
+    </div>
+    <p class="art-page-footer">
+        <span id="art-footnote-links"><a href="http://www.artisteer.com/" target="_blank">Web Template</a> created with Artisteer.</span>
+    </p>
+</div>
+
+
+</body></html>
